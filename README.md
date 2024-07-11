@@ -3,7 +3,7 @@
 # Final Evaluation - Module 3
 This project is the final evaluation of Module 3 from Adalab. It consists of a web application developed with in React, which allows users to search and view characters from the Rick and Morty series.
 ## Application Overview
-The application focuses on providing an intuitive interface for searching Rick and Morty characters. Users can filter characters by name, status (alive, dead, unknown), planet of origin, and species. Detailed information about each character, including their image, name, species, and status, is displayed upon selection. The application is fully responsive, designed in mobile-first, and adaptable to all screen sizes.
+The application focuses on providing an intuitive interface for searching Rick and Morty characters. Users can filter characters by name, status (alive, dead, unknown), planet of origin, location and species. Detailed information about each character, including their image, name, species, and status, is displayed upon selection. The application is fully responsive, designed in mobile-first, and adaptable to all screen sizes.
 ## Main Features
 - **Character Search**: Allows users to search for characters by name.
 - **Status Filter**: Users can filter results based on the character's status (alive, dead, unknown).
@@ -48,10 +48,19 @@ The project structure is as follows:
   |-- index.html
 /src
   |-- components
-      |-- CharacterCard.js
-      |-- CharacterDetail.js
-      |-- CharacterList.js
-      |-- Filters.js
+      |-- CharacterCard.jsx
+      |-- CharacterDetail.jsx
+      |-- CharacterList.jsx
+      |-- FilterByLocation.jsx
+      |-- FilterByName.jsx
+      |-- FilterByPlanet.jsx
+      |-- FilterBySpecies.jsx
+      |-- FilterByStatus.jsx
+      |-- Filters.jsx
+      |-- Footer.jsx
+      |-- Header.jsx
+      |-- Main.jsx
+  |-- images
   |-- services
       |-- api.js
   |-- styles
@@ -66,7 +75,7 @@ The project structure is as follows:
 ## Application Workflow
 - **Fetching Data**: Data is fetched from the Rick and Morty API using the Fetch API.
 - **Rendering Characters**: The character data is rendered in a list format.
-- **Filtering**: Users can filter characters based on name, status, planet of origin, and species. If there are no matches, an error message will appear. The reset button allows users to reset the filters to their original state and start to search from scratch.
+- **Filtering**: Users can filter characters based on name, status, planet of origin, location and species. If there are no matches, an error message will appear. The reset button allows users to reset the filters to their original state and start to search from scratch.
 - **Character Details**: Clicking on a character displays detailed information about them. When the route does not match any characters, an error message is displayed that allows the user to navigate back to the home page. When navigating back to the search page, the search inputs are maintained so the user can continue browsing with the parameters they had already entered.
 ## Application Screens
 **Main screen**
@@ -80,5 +89,5 @@ The project structure is as follows:
 <img width="1440" alt="Screenshot 2024-05-24 at 09 22 14" src="https://github.com/Adalab/modulo-3-evaluacion-final-ellisoalgo/assets/161454802/63c97dac-291a-4b81-9d0c-b27a26e010ca">
 <img width="1440" alt="Screenshot 2024-05-24 at 09 22 31" src="https://github.com/Adalab/modulo-3-evaluacion-final-ellisoalgo/assets/161454802/61fa336d-5624-469b-9b3d-03bb638ec321">
 
-## Thank you and enjoy my app! [Wubba Dubba Lub Lub](https://github.com/Adalab/modulo-3-evaluacion-final-ellisoalgo/assets/161454802/7c81eaf3-6b00-4e86-af9f-b3522e2cd945)
+## Thank you and enjoy my app! [Wubba Dubba Lub Lub](https://github.com/ellisoalgo/rick-and-morty-character-db)
 

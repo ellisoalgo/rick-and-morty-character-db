@@ -89,5 +89,5 @@ The project structure is as follows:
 <img width="1440" alt="Screenshot 2024-05-24 at 09 22 14" src="https://github.com/Adalab/modulo-3-evaluacion-final-ellisoalgo/assets/161454802/63c97dac-291a-4b81-9d0c-b27a26e010ca">
 <img width="1440" alt="Screenshot 2024-05-24 at 09 22 31" src="https://github.com/Adalab/modulo-3-evaluacion-final-ellisoalgo/assets/161454802/61fa336d-5624-469b-9b3d-03bb638ec321">
 
-## Thank you and enjoy my app! [Wubba Dubba Lub Lub](https://github.com/ellisoalgo/rick-and-morty-character-db)
+## Thank you and enjoy my app! [Wubba Dubba Lub Lub](https://ellisoalgo.github.io/rick-and-morty-character-db/)
 
